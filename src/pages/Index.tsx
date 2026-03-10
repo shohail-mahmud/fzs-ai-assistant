@@ -85,6 +85,14 @@ ${SCHOOL_DATA.teachers.assistantTeachers.map(t => `• ${t.name} - ${t.shiftBn} 
 🎓 বিখ্যাত প্রাক্তন ছাত্র:
 ${SCHOOL_DATA.alumni.map(a => `• ${a.name}: ${a.title}`).join("\n")}
 
+🎉 ১৮৫তম প্রতিষ্ঠাবার্ষিকী ও পুনর্মিলনী (২০২৫):
+• তারিখ: ${SCHOOL_DATA.reunion2025.dates}
+• গুরুত্ব: ${SCHOOL_DATA.reunion2025.significance}
+• আয়োজন কমিটি: সভাপতি ${SCHOOL_DATA.reunion2025.committee.chairman}, সহ-সভাপতি ${SCHOOL_DATA.reunion2025.committee.coChairman} (${SCHOOL_DATA.reunion2025.committee.members} সদস্যের কমিটি)
+• প্রথম দিন (${SCHOOL_DATA.reunion2025.day1.date}): ${SCHOOL_DATA.reunion2025.day1.events.join(", ")}
+• দ্বিতীয় দিন (${SCHOOL_DATA.reunion2025.day2.date}): ${SCHOOL_DATA.reunion2025.day2.events.join(", ")}
+• ঐতিহ্য: ${SCHOOL_DATA.reunion2025.legacy}
+
 💻 ডেভেলপার: ${SCHOOL_DATA.developer.name} (${SCHOOL_DATA.developer.platform})
 
 ⚠️ গুরুত্বপূর্ণ নির্দেশনা:
