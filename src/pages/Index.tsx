@@ -239,7 +239,7 @@ const Index = () => {
             { role: 'user', content: message }
           ],
           model: 'openai',
-          seed: Date.now()
+          seed: Date.now() % 2147483647
         }),
         signal: controller.signal
       });
