@@ -189,8 +189,48 @@ export const SCHOOL_DATA = Object.freeze({
     Object.freeze({ name: "সুফি মোতাহার হোসেন", title: "কবি, বাংলা একাডেমি পুরস্কারপ্রাপ্ত" }),
     Object.freeze({ name: "অম্বিকাচরণ মজুমদার", title: "রাজনীতিবিদ, আইনজীবী ও সমাজসেবী" }),
     Object.freeze({ name: "জলধর সেন", title: "লেখক, সাংবাদিক ও পরিব্রাজক" }),
-    Object.freeze({ name: "আ.ন.ম বজলুর রশীদ", title: "শিক্ষাবিদ, নাট্যকার ও কবি" })
+    Object.freeze({ name: "আ.ন.ম বজলুর রশীদ", title: "শিক্ষাবিদ, নাট্যকার ও কবি" }),
+    Object.freeze({ name: "সৈয়দ মাইনুল হোসেন", title: "স্থপতি" })
   ]),
+  
+  reunion2025: Object.freeze({
+    title: "১৮৫তম প্রতিষ্ঠাবার্ষিকী ও পুনর্মিলনী",
+    titleEn: "185th Anniversary Grand Reunion",
+    dates: "২৫-২৬ ডিসেম্বর, ২০২৫",
+    datesEn: "December 25-26, 2025",
+    significance: "৪৪ বছর পর প্রথম পুনর্মিলনী",
+    significanceEn: "First reunion in 44 years",
+    committee: Object.freeze({
+      chairman: "ড. মোস্তাফিজুর রহমান শামীম",
+      chairmanEn: "Dr. Mostafizur Rahman Shamim",
+      coChairman: "ওয়াহিদ মিয়া",
+      coChairmanEn: "Wahid Mia",
+      members: 21
+    }),
+    day1: Object.freeze({
+      date: "২৫ ডিসেম্বর",
+      events: Object.freeze([
+        "জাতীয় পতাকা উত্তোলন",
+        "ঘোড়ার গাড়িসহ বর্ণাঢ্য নগর শোভাযাত্রা",
+        "স্কুল উন্নয়ন আলোচনা সভা",
+        "আতশবাজি প্রদর্শনী",
+        "ঐতিহাসিক প্রামাণ্যচিত্র প্রদর্শন",
+        "রক ব্যান্ড ওয়ারফেইজের সাংস্কৃতিক অনুষ্ঠান"
+      ])
+    }),
+    day2: Object.freeze({
+      date: "২৬ ডিসেম্বর",
+      events: Object.freeze([
+        "মিনি ম্যারাথন",
+        "ছাত্র প্রতিযোগিতা (চিত্রাঙ্কন, বিতর্ক)",
+        "পিঠা উৎসব",
+        "সঙ্গীত কনসার্ট",
+        "র‍্যাফেল ড্র",
+        "রক শিল্পী জেমসের সমাপনী পরিবেশনা (পরিকল্পিত)"
+      ])
+    }),
+    legacy: "ভাষা আন্দোলন ও মুক্তিযুদ্ধে গৌরবময় ভূমিকা"
+  }),
   
   developer: Object.freeze({
     name: "@shohailmahmud09",
